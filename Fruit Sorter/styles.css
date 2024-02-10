@@ -1,0 +1,19 @@
+body {
+    padding: 40px;
+    background:url(istockphoto-172443760-612x612.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#apple-shelf {
+    background: rgb(189, 189, 15);
+    border-radius: 10px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#orange-shelf {
+    background: yellow;
+    border-radius: 10px;
+    height: 30px;
+}
