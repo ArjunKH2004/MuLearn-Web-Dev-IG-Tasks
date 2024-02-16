@@ -1,0 +1,73 @@
+div{
+    margin: 40px 400px;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255,0.25    );
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 0 0 10px black;
+}
+body{
+    font-family: "Oswald", sans-serif;
+    background: url("assets/gradient.jpg");
+    background-size:cover;
+}
+label{
+    font-size: larger;
+}
+.txt{
+    border-radius: 100px;
+    border: none;
+    transition: .5s;
+    font-size: 20px;
+    padding: 5px 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.txt:hover{
+    box-shadow: 0 0 5px black;
+}
+h1{
+    padding-top: 0px;
+    font-size: 50px;
+}
+.txt:after{
+    outline: none;
+}
+.btn{
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-family: "Oswald",sans-serif;
+    border: none;
+    box-shadow: 0 2px #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .5;
+    -webkit-transition: .5;
+    -moz-transition: .5;
+    -ms-transition: .5;
+    -o-transition: .5;
+}
+.btn:hover{
+    background-color: rgba(204, 204, 204, 0.466);
+}
+.btn:active {
+    background-color: rgba(204, 204, 204, 0.466);
+    transform: translateY(4px);
+}
+a{
+    color: white;
+}
