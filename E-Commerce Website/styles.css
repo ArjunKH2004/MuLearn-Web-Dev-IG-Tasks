@@ -133,7 +133,7 @@ footer {
 .wear img:hover{
     transform: scale(1.01);
     box-shadow: 0 0 5px black;
-    background-color: white;
+    background-color: yellow;
 }
 .w{
     font-size: 100px;
