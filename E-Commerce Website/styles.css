@@ -123,16 +123,17 @@ footer {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border: 2px solid black;
-
     transition: .5s;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
 }
+
 .wear img:hover{
     transform: scale(1.01);
     box-shadow: 0 0 5px black;
+    background-color: white;
 }
 .w{
     font-size: 100px;
