@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      color: #fff;
+    }
+
+    th {
+      background-color: #333;
+    }
+    tr{
+      transition: 0.2s;
+    }
+    tr:hover {
+      background-color: #555;
+    }
+
+    video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    } 
+    h2 {
+    
+      text-align: center;
+      
+    }
+  </style>
+  <title>Solar System Planets</title>
+</head>
+<body>
+  <video autoplay muted loop>
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+
+  <h2 style="color: #fff;">Solar System Planets</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Planet</th>
+        <th>Radius (km)</th>
+        <th>Mass (kg)</th>
+        <th>Distance from Sun (million km)</th>
+        <th>Orbital Period (days)</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mercury</td>
+        <td>2,439.7</td>
+        <td>3.3011 × 10^23</td>
+        <td>57.9</td>
+        <td>88</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Venus</td>
+        <td>6,051.8</td>
+        <td>4.8675 × 10^24</td>
+        <td>108.2</td>
+        <td>225</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Earth</td>
+        <td>6,371</td>
+        <td>5.972 × 10^24</td>
+        <td>149.6</td>
+        <td>365.25</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Mars</td>
+        <td>3,389.5</td>
+        <td>6.4171 × 10^23</td>
+        <td>227.9</td>
+        <td>687</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Jupiter</td>
+        <td>69,911</td>
+        <td>1.898 × 10^27</td>
+        <td>778.3</td>
+        <td>4,333</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Saturn</td>
+        <td>58,232</td>
+        <td>5.683 × 10^26</td>
+        <td>1,427</td>
+        <td>10,759</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Uranus</td>
+        <td>25,362</td>
+        <td>8.681 × 10^25</td>
+        <td>2,871</td>
+        <td>30,688</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Neptune</td>
+        <td>24,622</td>
+        <td>1.024 × 10^26</td>
+        <td>4,498</td>
+        <td>60,190</td>
+        <td>Regular</td>
+      </tr>
+      <tr>
+        <td>Pluto</td>
+        <td>1,188.3</td>
+        <td>1.303 × 10^22</td>
+        <td>5,906</td>
+        <td>90,560</td>
+        <td>Controversial<br>(identified as a dwarf planet<br>from August 2006)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
